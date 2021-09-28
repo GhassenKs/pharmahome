@@ -1,0 +1,460 @@
+/*
+new main color : #02DC54
+background color:#f4f4f2*/
+body{
+  background-color: #FFF;
+
+}
+.cover1{
+    height:709px;
+    background-color: #f4f4f2;
+}
+.cover11{
+    transition: 0.5s ease;
+}
+.cover1 .navbar
+{
+    position: fixed;
+    color:#333;
+    width: 101%;
+    background-color:#ddd;
+    box-shadow: 0 1px 35px #BBB;
+    z-index: 5;
+    
+    
+}
+.actif{
+    display: none;
+}
+.navbar .logo{
+    font-family: 'Great Vibes', cursive;
+    margin-left: 10%
+    
+
+}
+.navbar .logo h2{
+    font-size: 45px;
+    
+}
+.navbar .list{
+    padding-left:100px;
+    text-align: center;
+    
+}
+.navbar .list li
+{
+    display:inline-block;
+    margin-left:px;
+    font-size: 20px;
+    border-radius: 3px;
+    transition:0.5s ease;
+    height: 35px;
+    font-family: 'EB Garamond', serif;
+    
+    width: 120px;
+
+}
+#registerlink{
+    background-color:   #02DC54;
+    color: aliceblue;
+}
+.navbar .list li:hover{
+    background-color:   #02DC54;
+    color: aliceblue;
+}
+.navbar .list li a:hover{
+    color: aliceblue;
+}
+.navbar .list li a{
+    text-decoration: none;
+    color:#333;
+    
+}
+#registerlink a{
+    color: #FFF;
+}
+
+.title{
+    margin-top: 20%;
+    margin-left: 0%;
+    font-family: 'Great Vibes', cursive;
+    color: #555;
+
+}
+.title h1{
+    font-size: 75px;
+}
+
+
+.description{
+    color:#666;
+    margin-top: 20px;
+    margin-left: 5px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}
+
+.fond{
+    background-image: url(../images/fond%20med.png);
+    position:absolute;
+    height:450px;
+    top: 170px;
+    left: 50%;
+    width: 600px;
+}
+
+.bouton
+{
+  text-align: center;
+  margin-left:0%;
+    margin-top:5px
+
+}
+.bouton button{
+ background-image: linear-gradient(to right, #02DC54, #38d39f, #32be8f);
+color: #EEE;
+    background-size: 200%;
+font-size: 20px;
+    font-family: 'EB Garamond', serif;
+width: 180px;
+height:45px;
+    border: 1px solid white;
+    border-radius: 8px;
+    letter-spacing: 4px;
+    transition: 0.5s ease;
+    margin-top: 22px;
+}
+.bouton button:hover{
+   background-position: right;
+}
+.cover2{
+    height: 550px;
+    background-color:#f2f4f2; 
+}
+.titreservices{
+    position: absolute;
+    left: 38%;
+    margin-bottom: 2px;
+    font-family:'EB Garamond', serif;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+#hr1{
+    
+    width: 90px;
+    top: 50px;
+    height: 20px;
+    position: absolute;
+    border:none;
+    background-color:#02DC54;
+    
+}
+.icons{
+    margin-top: 137px;
+    text-align: center;
+}
+.icons .icon i{
+    border: 1px solid #888;
+    width:125px;
+    height: 125px;
+    line-height: 125px;
+    border-radius: 95px;
+    font-size: 55px;
+    color:#02DC54;
+    
+    margin-bottom: 25px;
+    transition: 0.5s ease;
+    
+}
+#iconhome{
+    background-color: #02DC54;
+    color:white;
+}
+.icons .icon i:hover{
+    background-color: #02DC54;
+    color:white;
+    width:135px;
+    height: 135px;
+    line-height: 132px;
+    font-size: 47px;
+    
+}
+.icons h2{
+    font-family: 'Great Vibes', cursive;
+}
+.cover3{
+    height: 200px;
+    text-align: center;
+    background-color:#f2f4f2;
+    margin-top: 50px;
+}
+#hr2{
+    width: 120px;
+    top: 95px;
+    left: 31%;
+    height: 20px;
+    position: absolute;
+    border:none;
+    background-color:#02DC54;
+}
+.cover3 h1{
+    font-family:'EB Garamond', serif;
+    font-size: 55px;
+    margin-top: 45px;
+    color:#333;
+}
+.cards{
+    text-align: center;
+    height: 100px;
+    
+    
+}
+.contplace1{
+    margin-top: 50px;
+    
+    height: 700px;
+}
+.contplace2{
+    margin-top: 50px;
+    
+    height: 700px;
+    
+}
+.cont{
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.cont .card{
+    max-width: 420px;
+    height: 340px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.8);
+    transition: 0.3s ease-in-out;
+    display: flex;
+    background-color: #EEE
+    
+}
+.cont .card:hover{
+    height: 530px;
+}
+.cont .imgbox{
+    
+    position: relative;
+    top: 12px;
+    
+    
+    
+    
+}
+.imgbox img{
+    width: 290px;
+    height: 280px;
+    z-index: 100;
+    box-shadow: 0 2px 7px rgba(0,0,0,0.8);
+    
+}
+.cont .card .content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    background-color: #EEE
+}
+.cont .card:hover .content{
+    
+    visibility: visible;
+    opacity: 1;
+    margin-top: 0px;
+     transition-delay: 0.3s;
+}
+
+.card .content h2{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: 'EB Garamond', serif;
+}
+.card .content p{
+    margin-bottom: 25px;
+}
+
+.card .content .fa-instagram{
+    font-size: 28px;
+    padding-left: 10px;
+    padding-right: 19px;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 10px;
+    
+    width: 45px;
+    margin-right: 17px;
+    
+    border-radius: 45px;
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    color: white;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.8);
+}
+.card .content .fa-whatsapp{
+    font-size: 28px;
+    padding-left: 10px;
+    padding-right: 19px;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 10px;
+    
+    width: 45px;
+    margin-right: 17px;
+    
+    border-radius: 45px;
+    
+    
+    background-color: #25d366;
+    color: white;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.8);
+}
+.card .content .fa-facebook-f{
+    font-size: 28px;
+    padding-left: 10px;
+    padding-right: 19px;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.8);
+    width: 45px;
+    margin-right: 17px;
+  
+    border-radius: 45px;
+    transition: 1s ease;
+    
+    background-color: #4267B2;
+    color: white;
+}
+
+
+
+.login{
+     width: 670px;
+    
+  padding: 0px;
+    z-index:50;
+    letter-spacing: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+    
+  transform: translate(-50%,-50%);
+  background: white;
+    border-radius: 18px;
+  text-align: center;
+    visibility: hidden;
+    box-shadow: 0 3px 9px black;
+    
+}
+.login .box{
+    border: 1px solid #FFF;
+    background: #f2f4f2;
+    height: 350px;
+    box-shadow: 0 1px 35px #BBB;
+    border-radius: 5px;
+   
+}
+.login h1{
+    
+    position: relative;
+    font-family: 'Great Vibes', cursive;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top:25px;
+    margin-bottom: 0px;
+    padding: 13px 0;
+    width: 300px;
+    left: 40%;
+    
+}
+.choices{
+    background-color: aqua;
+    width: 670px;
+    
+}
+.choix{
+    
+    margin-top: 5px;
+    width:200px;
+    margin-left:px;
+    height: 180px;
+    border: 1px solid #f2f4f2;
+    transition: 0.5s ease-in-out;
+    
+}
+.choix:hover{
+    border: 1px solid #BBB;
+    border-radius: 10px;
+    
+}
+.choix img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px
+    
+}
+
+.choix h2{
+    color: #333;
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.box h3{
+    position: relative;
+    left: 430px;
+    top: -80px;
+    color: #aaa;
+    cursor: pointer;
+    font-size: 25px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

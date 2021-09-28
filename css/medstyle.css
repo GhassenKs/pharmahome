@@ -1,0 +1,96 @@
+.covermeds{
+     margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: ;
+    width:640px;
+    height: 95px;
+    line-height: 95px;
+    background-color: #02DC54;
+    border-radius: 5px;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.2)!important;
+    float: left;
+}
+.boxmeds{
+    width:630px;
+    margin-left: 10px;
+    height: 95px;
+    background-color: aliceblue;
+    border-radius: 2px;
+}
+.dwe img{
+    width: 160px;
+    margin:35px;
+}
+.boxmeds h2{
+    font-family: 'Montserrat', sans-serif;
+    width: 350px;
+    text-align: left;
+    
+    font-size: 22px;
+    padding-top:  15px;
+    padding-left: 20px;
+    color: #444;
+}
+
+.boxmeds h2 i {
+    margin-left: 550px;
+    font-size: 25px;
+}
+
+.boxmeds p{
+    margin-top: -55px;
+    text-align: left;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.dwe {
+    
+    margin-left: 55px;
+    height: 340px;
+    border-bottom: 10px solid #02DC54;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: aliceblue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 20px
+}
+.titredwe{
+    border-bottom: 2px solid #02DC54;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.dwe p{
+    color: #444;
+    font-weight: 500 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

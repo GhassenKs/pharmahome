@@ -1,0 +1,183 @@
+
+
+
+/*.containeri{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap :7rem;
+    padding: 0 2rem;
+    position: absolute;
+}
+*/
+
+
+.login-content{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+    position: absolute;
+    left: 150px;
+    
+    top: 155px;
+    background-color: whitesmoke;
+     border-radius: 20px;
+    border: 3px solid #eee;
+    display: none;
+    
+}
+.active{
+    display: flex;
+}
+
+form{
+	width: 400px;
+    height: 375px;
+    
+}
+
+.login-content img{
+    height: 100px;
+    margin-top: 15px;
+
+    
+    
+}
+
+.login-content h2{
+	margin: 10px 0;
+	color: #333;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+.login-content .input-div{
+	position: relative;
+    display: grid;
+    grid-template-columns: 10% 93%;
+    margin: 10px 15px;
+    padding: px 0;
+    border-bottom: 2px solid #d9d9d9;
+    
+}
+
+.login-content .input-div.one{
+	margin-top: 20px;
+}
+
+.i{
+	color: #d9d9d9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.i i{
+	transition: .3s;
+}
+
+.input-div > div{
+    position: relative;
+	height: 50px;
+    
+}
+
+.input-div > div > h5{
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #999;
+	font-size: 17px;
+	transition: .3s;
+}
+
+.input-div:before, .input-div:after{
+	content: '';
+	position: absolute;
+	bottom: -2px;
+	width: 0%;
+	height: 2px;
+	background-color: #02DC54;
+	transition: .4s;
+}
+
+.input-div:before{
+	right: 50%;
+}
+
+.input-div:after{
+	left: 50%;
+}
+
+.input-div.focus:before, .input-div.focus:after{
+	width: 50%;
+}
+
+.input-div.focus > div > h5{
+	top: 8px;
+    left: 4px;
+	font-size: 15px;
+    display: none;
+}
+
+.input-div.focus > .i > i{
+	color: #02DC54;
+}
+
+.input-div > div > input{
+	position: absolute;
+	left: 0 ;
+	top: 5px ;
+	width:  100%;
+	height: 100%;
+	border: none;
+	outline: none;
+	background: none;
+	padding: 0.5rem 0.7rem;
+	font-size: 15px;
+	color: #555;
+	font-family: 'poppins', sans-serif;
+}
+
+.input-div.pass{
+	margin-bottom: 040px;
+}
+
+#account{
+	display: block;
+	text-align: right;
+	text-decoration: none;
+	color: #999;
+	font-size: 0.9rem;
+	transition: .3s;
+}
+
+a:hover{
+	color: #38d39f;
+}
+
+.btn{
+	display: block;
+	width: 70%;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #02DC54, #02DC54, #32be8f);
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	margin-top: 5px ;
+	cursor: pointer;
+	transition: .5s;
+    margin-left: 15%;
+}
+.btn:hover{
+	background-position: right;
+    color: aliceblue;
+}
